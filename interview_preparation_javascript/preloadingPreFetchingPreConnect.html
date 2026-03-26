@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- ✅ preload JS -->
+    <link
+      rel="preload"
+      as="script"
+      href="./preloadingPreFetchingPreConnectAssets/script2.js"
+    />
+
+    <!-- ✅ preload CSS properly -->
+    <link
+      rel="preload"
+      as="style"
+      href="./preloadingPreFetchingPreConnectAssets/style1.css"
+    />
+
+    <!-- ✅ actual CSS usage (still needed) -->
+    <link
+      rel="stylesheet"
+      href="./preloadingPreFetchingPreConnectAssets/style1.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./preloadingPreFetchingPreConnectAssets/style2.css"
+    />
+  </head>
+
+  <body>
+    <h1>PRE-Loading , PRE-fetching, PRE-connect</h1>
+
+    <script src="./preloadingPreFetchingPreConnectAssets/script1.js"></script>
+    <script src="./preloadingPreFetchingPreConnectAssets/script2.js"></script>
+  </body>
+</html>

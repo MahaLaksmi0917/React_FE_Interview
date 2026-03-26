@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: 1px solid black;
+  margin-left: 10rem;
+  height: 60px;
+  overflow-y: scroll;
+  width: 10vw;
+}
+
+.container .list {
+  list-style-type: none;
+  height: 20px;
+  padding: 5px 2px;
+}
+
+.loading {
+  filter: blur(10px);
+}
+
+.loaded {
+  filter: blur(0);
+}

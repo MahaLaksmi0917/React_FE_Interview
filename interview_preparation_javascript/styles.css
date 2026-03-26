@@ -1,0 +1,47 @@
+.box_container {
+  border: 1px solid red;
+  width: 45vw;
+  height: 45vw;
+  position: relative;
+  padding: 20px;
+}
+
+.boxOne {
+  width: 10vw;
+  height: 10vw;
+  background-color: green;
+  position: sticky;
+  top: 0;
+}
+.box {
+  width: 10vw;
+  height: 10vw;
+  background-color: black;
+  position: absolute;
+}
+
+.tr {
+  top: 0;
+  right: 0;
+}
+
+.tl {
+  top: 0;
+  left: 0;
+}
+
+.br {
+  bottom: 0;
+  right: 0;
+}
+
+.bl {
+  bottom: 0;
+  left: 0;
+}
+
+.test {
+  width: 10vw;
+  height: 10vw;
+  background-color: red;
+}
